@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geek прогноз</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_label">Добро пожаловать!</string>
+    <string name="welcome_city_label">Ваш город:</string>
+    <string name="welcome_agreements">Продолжая, я соглашаюсь с правилами использования сервиса</string>
+    <string name="welcome_continue">Посмотреть прогноз</string>
+    <string name="details_button_send">Отправить</string>
+    <string name="share_title">My secret forecast!</string>
+    <string name="atmosphere_pressure">Давление</string>
+    <string name="tomorrow">На завтра</string>
+    <string name="next_week">На неделю</string>
+    <string name="week_forecast_placeholder">Прогноз на всю неделю. Пожалуйста, не верьте таким прогнозам</string>
+    <string name="tomorrow_forecast_placeholder">Прогноз на завтра</string>
+    <string name="atmosphere_preassure_placeholder">Какое-то описание атмосферного давления, которое когда-нибудь придёт с сервера</string>
+    <array name="cities">
+        <item>Москва</item>
+        <item>С. Петербург</item>
+        <item>Нижний Новгород</item>
+        <item>Казань</item>
+        <item>Екатеринбург</item>
+        <item>Красноярск</item>
+        <item>Хабаровск</item>
+        <item>Владивосток</item>
+    </array>
+    <array name="forecast_values">
+        <item>Солнечно</item>
+        <item>Облачно</item>
+        <item>Ветренно</item>
+        <item>Снежно</item>
+        <item>Дождливо</item>
+        <item>Морозно</item>
+        <item>Холодно</item>
+        <item>как в Ташкенте</item>
+    </array>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="manu_add">Добавить</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="add_new_city_title">Укажите новую локацию</string>
+    <string name="cancel">Отмена</string>
+</resources>

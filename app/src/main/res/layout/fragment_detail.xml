@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.gb.vtitov.weather.WelcomeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/weather_details"
+        tools:text="Today forecast: Some description for today forecast"
+        android:textSize="@dimen/details_text_size"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/text_atmosphere_pressure"
+        tools:text="Atmosphere pressure details"
+        android:textSize="@dimen/details_text_size"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/text_tomorrow"
+        tools:text="Tomorrow forecast details"
+        android:textSize="@dimen/details_text_size"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/text_next_week"
+        tools:text="Next week forecast details"
+        android:textSize="@dimen/details_text_size"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="left"/>
+    <Button
+        android:id="@+id/button_share"
+        android:layout_height="@dimen/default_height"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:text="@string/details_button_send"
+        />
+</LinearLayout>

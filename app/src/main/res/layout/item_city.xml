@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_city"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/city_forecast_icon"
+        android:layout_width="@dimen/big_height"
+        android:layout_height="@dimen/big_height"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/city_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/city_forecast_icon"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:textSize="@dimen/bold_label_size"
+        android:textColor="@color/black"
+        tools:text="City name"/>
+    <TextView
+        android:id="@+id/city_short_forecast_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/city_name_text_view"
+        android:layout_toRightOf="@+id/city_forecast_icon"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:textSize="@dimen/text_size_standard"
+        android:textColor="@color/gray"
+        android:text="Rainy, 20 degrees, strong winter. Please, stay at home"/>
+</RelativeLayout>

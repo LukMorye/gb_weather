@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/opacityBlack"
+    tools:context="ru.gb.vtitov.weather.AddCityFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/shape_corner_white">
+        <TextView
+            android:id="@+id/add_new_city_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/big_margin"
+            android:textAlignment="center"
+            android:text="@string/add_new_city_title"/>
+        <EditText
+            android:id="@+id/add_city_edit"
+            android:layout_below="@+id/add_new_city_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_height"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:hint="Moscow"/>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/add_city_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/medium_margin"
+                android:background="@drawable/shape_button_clear"
+                android:text="@string/cancel" />
+            <Button
+                android:id="@+id/add_city_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium_margin"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/shape_button_clear"
+                android:text="@string/accept" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>
